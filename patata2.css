@@ -35,6 +35,15 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.taco-image {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-width: 400px; /* Limita el ancho máximo a 400px */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    display: block; /* Asegura que la imagen sea un bloque */
+    margin: 20px auto; /* Centra la imagen */
+}
+
 .taco {
     margin-bottom: 15px;
 }
